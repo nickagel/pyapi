@@ -8,5 +8,4 @@ venv:
 
 .PHONY: run-server
 run-server:
-	export FLASK_APP=server.py
 	flask run
